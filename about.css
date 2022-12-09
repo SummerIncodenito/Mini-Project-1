@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right:10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(248, 26,92);
+}
+.btn0{
+    height: 40px;;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26,92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background-image: url('boksoo.webp');
+    background-size: cover;
+    min-height: 40vh;
+    background-position:50% 50% ;
+    color:  #fff;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight:700;
+    text-transform: uppercase;
+    margin-top: 30px;
+   
+}
+
+.about-title{
+    color:#000;
+
+}
+
+.about-us image{
+    width: 300px;
+    height: 50%;
+}
+.about-us .description{
+    font-size:0.9rem ;
+    font-weight: 600;
+}
+.service-heading{
+    color: #000;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
+   
+   
+}
+.card-body{
+    text-align: center;
+}
+.card{
+   color: #000;
+   margin-top: 20px;
+}
+
+.card-img-top{
+    margin-top: 10px;
+    width:100px ;
+    height: 100px;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition:0.05s ;
+}
+
+
+/*=======team=====*/
+.team-item{
+    box-shadow: 0 0  45px rgba(0, 0, 0, 0.08);
+}
+.team-item img{
+    transition: 0.05s;
+
+}
+.team-item:hover img{
+    transform: scale(1.1);
+    
+}
+.team-item .btn{
+    background: #ffffff;
+    color: var(--primary);
+    border-radius: 35px;
+    border-bottom: 1 px solid var(--primary);
+
+}
+.team-item .btn:hover{
+    background: var(--primary);
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    }
+
+    /*=====Social Icon*/
+
+    .social-links a{
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius:50% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0,4rem;
+        transition: all 0.4s ease;
+    }
+    .social-links a:hover{
+        color: #f7327a;
+        border-color: #f7327a;
+    }
+   
+    
+    
